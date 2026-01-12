@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif;
+}
+
+body {
+  @apply bg-canvas-950 text-slate-100;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at top left, rgba(132, 209, 255, 0.08), transparent 45%),
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.04), transparent 35%),
+    linear-gradient(180deg, #0b0f12 0%, #0f1419 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
